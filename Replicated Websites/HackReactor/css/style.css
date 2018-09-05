@@ -1,0 +1,130 @@
+body header #alert {
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 10px #888888;
+    margin-bottom: 15px;
+}
+
+body header #alert p {
+    display: inline;
+}
+
+body header #alert button {
+    display: inline;
+    border: 0;
+    padding: 5px 20px 5px 20px;
+    margin-left: 20px;
+    background-color: blue;
+    color: white;
+}
+
+body header #navigation-bar {
+    text-align: center;
+    padding: 30px 20px 20px 20px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 200px auto 90px;
+    grid-template-rows: 60px 60px 60px;
+}
+
+body header #navigation-bar img {
+    width: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header #navigation-bar nav {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header #navigation-bar nav a {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    color: black;
+}
+
+body header #navigation-bar nav .dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+body header #navigation-bar nav .dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+body header #navigation-bar nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body header #navigation-bar nav a:hover {
+    color: blue;
+}
+
+body header #navigation-bar button {
+    float: right;
+    width: 80px;
+    height: 30px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+body section#showcase {
+    text-align: center;
+    background-image: url("https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3185/assets/images/hero/hero-bg--home.jpg");
+    background-size: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+body section#showcase h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: unset;
+    padding-top: 70px;
+}
+
+body section#showcase h3 {
+    color: white;
+    font-weight: unset;
+    padding-top: 10px;
+}
+
+body section#showcase button {
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+
+body section#showcase button#start-learning {
+    background-color: blue;
+}
+
+body section#showcase button#play-video {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+}

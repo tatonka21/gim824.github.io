@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Snake Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+    <script src="sketch.js"></script>
+    <script src="snake.js"></script>
+    <script src="enemy.js"></script>
+    <style>
+      .row {
+        display: flex;
+      }
+      .column {
+      flex: 50%;
+    }
+    </style>
+  </head>
+  <body>
+    <div id="canvas-holder">
+    </div>
+    <div class="row">
+        <div class="column">
+            <h1 id="snakeX">Snake X: </h1>
+            <h1 id="snakeY">Snake Y: </h1>
+            <h1 id="snakeSpeedX">SnakeSpeed X: </h1>
+            <h1 id="snakeSpeedY">SnakeSpeed Y: </h1>
+        </div>
+        <div class="column">
+            <h1 id="enemyX">Enemy X: </h1>
+            <h1 id="enemyY">Enemy Y: </h1>
+            <h1 id="enemySpeedX">Enemy Speed X: </h1>
+            <h1 id="enemySpeedY">Enemy Speed Y: </h1>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./leaves-pattern.png");
+}
+
+.main {
+  background: #ccc;
+  width: 460px;
+  height: 175px;
+  margin: 100px auto;
+  position: relative;
+  padding: 30px;
+}
+
+.badge {
+  background: #e66357;
+  width: 180px;
+  color: white;
+  padding: 5px 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  left: 35%;
+  text-align: center;
+}
+
+.clock {
+  background: #EBEBEB;
+  text-align: center;
+  font-size: 55px;
+  height: 100%;
+  padding-top: 23px;
+  font-family: Orbitron;
+  border-radius: 4px;
+}
