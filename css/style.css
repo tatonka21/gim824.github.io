@@ -46,8 +46,15 @@ nav a:hover {
 }
 
 #row aside {
-    display: inline-flex;
     flex: 30%;
     background-color: #f1f1f1;
     padding: 20px;
+}
+
+#row aside h2 p {
+    display: block;
+}
+
+#project-tree .square {
+    list-style-type: square;
 }
